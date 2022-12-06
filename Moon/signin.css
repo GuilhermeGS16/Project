@@ -24,7 +24,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .main {
@@ -55,6 +55,11 @@ html {
   cursor: pointer;
 }
 
+.submit:hover{
+  background-color: #00d688;
+  transition: 0.5s;
+}
+
 .block a {
   text-decoration: none;
   color: white;
@@ -62,4 +67,25 @@ html {
 
 .block {
   text-align: left;
+}
+
+.container-block{
+  margin-right: 100px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs p{
+  margin: 2px;
+}
+
+.animation {
+  width: 45vw;
+  position: absolute;
+  left: 50px;
+  top: 0px
 }
