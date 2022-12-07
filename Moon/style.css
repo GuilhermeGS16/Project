@@ -22,7 +22,7 @@ html {
 .main {
     width: 100%;
     background-image: linear-gradient(to bottom, rgb(45, 0, 63), rgb(17, 0, 27));
-    height: 100vh;
+    height: 250vh;
 }
 
 .sign-in {
@@ -41,12 +41,17 @@ html {
     color: white;
     font-weight: 600;
     cursor: pointer;
+    border: none;
 }
 
 .logins {
     display: flex;
     gap: 15px;
+    margin-right: 15px;
+}
 
+.logo {
+    margin-left: 15px;
 }
 
 .custom-shape-divider-top-1669980190 {
@@ -78,7 +83,7 @@ html {
     top: 100px;
 }
 
-.about h1 {
+.about h2 {
     color: #00ffa3;
     font-size: 3em;
     font-weight: 700;
@@ -98,7 +103,7 @@ html {
 
 footer {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: rgb(14, 1, 22);
     color: #fff;
     display: flex;
@@ -120,4 +125,22 @@ footer {
 body::-webkit-scrollbar-thumb {
     background-color: #00ffa3;
     border-radius: 20px;
+}
+
+.contact h2 {
+    color: #00ffa3;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.contact p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1em;
+    width: 45%;
+}
+
+.contact {
+    padding-top: 120px;
+    padding-left: 80px;
 }
